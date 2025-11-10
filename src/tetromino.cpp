@@ -66,7 +66,6 @@ bool Tetromino::moveDown() {
     }
     return true;
 }
-
 bool Tetromino::moveUp() {
     y -= 1;
     if (collideWithBorder()) {
