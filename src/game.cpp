@@ -128,7 +128,6 @@ bool Game::collideWithTetrominoes() {
     }
     return false;
 }
-
 void Game::trasformTetromino (int key) {
     switch (key) {
         case KEY_UP:
